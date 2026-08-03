@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw and generated datasets
+data/raw/arm/*
+!data/raw/arm/README.md
+data/raw/x86/*
+!data/raw/x86/README.md
+data/processed/*
+!data/processed/README.md
+
+# Serialized models and large experiment artifacts
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+
