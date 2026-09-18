@@ -1,0 +1,18 @@
+{
+  "trial_number": 15,
+  "objective_value": 0.061474542243830865,
+  "hp": {
+    "reward_source": "mix",
+    "mix_student_weight": 0.9936357520196075,
+    "lambda_frequency": 0.6502271845774319,
+    "grid_points": 133,
+    "steps": 2439,
+    "batch": 92,
+    "lr": 0.00446755492306294,
+    "hidden": 48,
+    "tau": 0.03413100885389321,
+    "eps_start": 0.7881177028372847,
+    "eps_end": 0.0250185156327777,
+    "n_bins": 16
+  }
+}
